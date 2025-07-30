@@ -16,7 +16,7 @@ $width = 0;
 
 foreach ($signs as $id) {
     $id = basename($id); // prevent directory traversal
-    $file = __DIR__ . '/sings/' . $id . '.png';
+    $file = __DIR__ . '/signs/' . $id . '.png';
     if (!is_file($file)) {
         // skip missing files
         continue;
